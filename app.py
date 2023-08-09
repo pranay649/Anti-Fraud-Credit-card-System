@@ -103,7 +103,7 @@ def home():
         file.save(file_path)
 
         # Load the pre-trained model
-        model_path = "./model1.pkl"
+        model_path = "./model.pkl"
         model = load_model_from_pickle(model_path)
 
         # Load the new dataset
